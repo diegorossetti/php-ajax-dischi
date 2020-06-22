@@ -1,0 +1,15 @@
+@mixin font-color($font_size, $color) {
+    font-size: $font-size;
+    color: $color;
+}
+
+@mixin flex-column-justify($justify) {
+    display: flex;
+    flex-direction: column;
+    justify-content: $justify;
+}
+
+@mixin flex-justify($justify) {
+    display: flex;
+    justify-content: $justify;
+}
